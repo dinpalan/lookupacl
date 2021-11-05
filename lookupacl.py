@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 #SHEBANG
-#copyright (c) Dinesh_Kumar_Palanivelu #Save file as <title>.py in your preferred location. Then start typing
+#code created by Dinesh_Kumar_Palanivelu #Save file as lookupacl.py in your preferred location.
 import socket
 from loguru import logger
 from time import sleep
