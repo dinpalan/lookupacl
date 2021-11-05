@@ -19,7 +19,7 @@ def nslook():
     with open('ns.txt','r') as o:
         l = o.readlines()     
     if d == l:
-        print("No Changes in facebook ip");
+        print("No Changes in website ip");
     else:
         print("IP is changed. Changing the ACL in firewall")
 
@@ -31,8 +31,9 @@ def main():
        try:
            global web
            web = input("Please enter the website:")
+           nslook()
            while True:
-               nslook()
+           
                logger.info("Press 'ctrl+c' to exit");sleep(3);
                      
        except KeyboardInterrupt:
